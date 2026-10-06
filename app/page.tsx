@@ -227,10 +227,15 @@ export default function Home() {
 
       <footer className="border-t">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-4 py-6 text-sm text-muted-foreground">
-          <span>WeGoAI — part of the wegoze family</span>
-          <a href="https://wegoze.duckdns.org" className="hover:text-foreground">
-            wegoze.duckdns.org
-          </a>
+          <span>WeGoAI — part of the wegowow family</span>
+          <span className="flex gap-4">
+            <a href="https://wegowow.duckdns.org" className="hover:text-foreground">
+              wegowow.duckdns.org
+            </a>
+            <a href="https://wegoze.duckdns.org" className="hover:text-foreground">
+              wegoze.duckdns.org
+            </a>
+          </span>
         </div>
       </footer>
     </>
